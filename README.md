@@ -43,9 +43,9 @@ The final four regressions test the use of a Kernel for fitting the data. This u
  # Results 
  ## R<sup>2</sup> Values for Male Fit Regression
  Linear Ridge Regression, Fitting Intercept
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9942 | 0.9927 | 0.9848 | 0.9227 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9942 | 0.9927 | 0.9848 | 0.9227 
 
  Linear Ridge Regression, No Intercept Fitting
  | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
