@@ -40,4 +40,12 @@ In these regressions, the intercept of the model is also fit, as it is unknown i
 The next four regressions vary the alpha parameter in the same way, but test the regression fit when the intercept of the model is not fit. 
 The final four regressions test the use of a Kernel for fitting the data. This uses the same linear least squares with l2-norm regression, but the kernel trick is applied. Different weights for alpha are also tried during this method. The fit for each model is evaluated with a coefficient of determination R<sup>2</sup>.
 
- 
+ # Results 
+
+ # Discussion
+ The regression that performs the best for both male and female data is the linear ridge regression with the fitting intercept calculation turned on. While the fit is better for the female data in this case, on average the male data is described better by a wider range of regressions. The accuracy for the female model decreases quickly. For both the male and female data the fit worsens as the alpha value grows larger. When the intercept fitting is turned off, the model worsens. The fit is the worst when using the Kernel Trick. This is interesting to me, because I thought the problem would be nonlinear, and solved easier when using a kernel.
+
+Next steps for this project could be investigating the accuracy of the regression fit by removing certain features from the dataset, and seeing which features are most important for the accuracy. It would be interesting to also run PCA on the dataset to also eliminate unimportant features. 
+
+I plan to use this regression as part of my thesis defense as another way to create a subject specific SMPL model. Next, I will take the measurements from my data collection and generate a SMPL model from them. I plan to evaluate the SMPL model against subject point cloud data collected with an Azure Kinect camera with a KNN algorithm. 
+
