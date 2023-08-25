@@ -41,6 +41,9 @@ The next four regressions vary the alpha parameter in the same way, but test the
 The final four regressions test the use of a Kernel for fitting the data. This uses the same linear least squares with l2-norm regression, but the kernel trick is applied. Different weights for alpha are also tried during this method. The fit for each model is evaluated with a coefficient of determination R<sup>2</sup>.
 
  # Results 
+ | Linear Ridge Regression, Fitting Intercept |
+ | &alpha = 0.1 | &alpha = 1 | &alpha = 10 | &alpha = 100 |
+ | 0.9942 | 0.9927 | 0.9848 | 0.9227 |
 
  # Discussion
  The regression that performs the best for both male and female data is the linear ridge regression with the fitting intercept calculation turned on. While the fit is better for the female data in this case, on average the male data is described better by a wider range of regressions. The accuracy for the female model decreases quickly. For both the male and female data the fit worsens as the alpha value grows larger. When the intercept fitting is turned off, the model worsens. The fit is the worst when using the Kernel Trick. This is interesting to me, because I thought the problem would be nonlinear, and solved easier when using a kernel.
