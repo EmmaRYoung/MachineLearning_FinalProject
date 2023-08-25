@@ -48,30 +48,30 @@ The final four regressions test the use of a Kernel for fitting the data. This u
  | 0.9942 | 0.9927 | 0.9848 | 0.9227 
 
  Linear Ridge Regression, No Intercept Fitting
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9925 | 0.9897 | 0.9776 | 0.8936 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9925 | 0.9897 | 0.9776 | 0.8936 
 
  Kernel Trick
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9925 | 0.9897 | 0.9776 | 0.9776 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9925 | 0.9897 | 0.9776 | 0.9776 
 
  ## R<sup>2</sup> Values for Female Fit Regression
  Linear Ridge Regression, Fitting Intercept
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9950 | 0.9868 | 0.9444 | 0.8234 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9950 | 0.9868 | 0.9444 | 0.8234 
 
  Linear Ridge Regression, No Intercept Fitting
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9643 | 0.9523 | 0.9132 | 0.7883 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9643 | 0.9523 | 0.9132 | 0.7883 
 
  Kernel Trick
- | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 |
- |:--:|:--:|:--:|:--:|
- | 0.9643 | 0.9523 | 0.9132 | 0.7883 |
+ | &#945; = 0.1 | &#945; = 1 | &#945; = 10 | &#945; = 100 
+ |:--:|:--:|:--:|:--:
+ | 0.9643 | 0.9523 | 0.9132 | 0.7883 
 
  # Discussion
  The regression that performs the best for both male and female data is the linear ridge regression with the fitting intercept calculation turned on. While the fit is better for the female data in this case, on average the male data is described better by a wider range of regressions. The accuracy for the female model decreases quickly. For both the male and female data the fit worsens as the alpha value grows larger. When the intercept fitting is turned off, the model worsens. The fit is the worst when using the Kernel Trick. This is interesting to me, because I thought the problem would be nonlinear, and solved easier when using a kernel.
