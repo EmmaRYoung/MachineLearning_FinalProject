@@ -6,6 +6,7 @@ While marker-based motion capture remains the gold standard in measuring human m
 The Skinned Multi Person Linear Model (SMPL) [3] body model is an opensource tool that can generate realistic 3D body shapes. It is created using thousands of body scans and motion capture data from the Archive of Motion Capture as Surface Shapes (AMASS) [4]. The shape of the model is described by 10 shape parameters, . And the pose of the body is described by 63 parameters, . 
 It is advantageous to create a streamlined procedure to digitally recreate subjects with the SMPL model to create more realistic musculoskeletal models, estimate inertia and center of mass. Quantifying body habitus also allows for the consideration of torso-thigh, thigh-calf and other tissue contacts.
 
-![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/8a7fb020-8955-4a92-b178-cd8bed92440f)
-*image_caption*
+| ![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/8a7fb020-8955-4a92-b178-cd8bed92440f)
+|:--:| 
+| *Space* |
 
