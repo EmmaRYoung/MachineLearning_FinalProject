@@ -8,5 +8,5 @@ It is advantageous to create a streamlined procedure to digitally recreate subje
 
 | ![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/8a7fb020-8955-4a92-b178-cd8bed92440f)
 |:--:| 
-| *Space* |
+| (From left to right) The default SMPL model (shape = 0), the “morphed” SMPL model (shape = β), and the morphed and posed SMPL model (shape =  β, pose = ፀ) |
 
