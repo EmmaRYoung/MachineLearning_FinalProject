@@ -42,7 +42,7 @@ The final four regressions test the use of a Kernel for fitting the data. This u
 
  # Results 
  Linear Ridge Regression, Fitting Intercept
- | &alpha; = 0.1 | &alpha; = 1 | &alpha; = 10 | &alpha; = 100 |
+ | &#945; = 0.1 | &alpha; = 1 | &alpha; = 10 | &alpha; = 100 |
  |:--:|:--:|:--:|:--:|
  | 0.9942 | 0.9927 | 0.9848 | 0.9227 |
 
