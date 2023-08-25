@@ -10,3 +10,21 @@ It is advantageous to create a streamlined procedure to digitally recreate subje
 |:--:| 
 | (From left to right) The default SMPL model (shape = 0), the “morphed” SMPL model (shape = β), and the morphed and posed SMPL model (shape =  β, pose = ፀ) |
 
+Extensive anthropometric measures were collected of subjects for a related project using depth cameras in the Human Dynamics Laboratory (HDL) at the University of Denver, the goal of this project is to predict the SMPL model of a person from these measurements. 
+
+| ![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/6bab34ed-0328-4544-8013-664cdf71ea04)
+|:--:| 
+| The circumference male measurements taken in the HDL |
+
+| ![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/7463060a-fb65-4531-8483-b10196ad656d)
+|:--:| 
+| The length measurements taken in the HDL |
+
+# Methods
+First, 3,000 SMPL models were randomly generated (1,500 male and 1,500 female models) and the shape parameters used to create them were stored for use in regression later. Each SMPL model was measured with custom Matlab code. The SMPL model’s scripts are all in python, so a python wrapper was created to call the Matlab function.
+For male models, the measurements seen in Figures 2-3 were taken. The measurements for the female model are almost identical, except the chest measurement is replaced with a band size and cup size measurement.Shown below is an example of some, but not all, of the measurements. 
+| ![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/01d798b5-e3a3-478d-8bb1-0c1447fd7588)
+|:--:|
+| Circumference measurements on the male and SMPL model |
+
+Full list of male 
