@@ -41,7 +41,7 @@ The next four regressions vary the alpha parameter in the same way, but test the
 The final four regressions test the use of a Kernel for fitting the data. This uses the same linear least squares with l2-norm regression, but the kernel trick is applied. Different weights for alpha are also tried during this method. The fit for each model is evaluated with a coefficient of determination R<sup>2</sup>.
 
  # Results 
- | Linear Ridge Regression, Fitting Intercept |
+ Linear Ridge Regression, Fitting Intercept
  | &alpha = 0.1 | &alpha = 1 | &alpha = 10 | &alpha = 100 |
  | 0.9942 | 0.9927 | 0.9848 | 0.9227 |
 
