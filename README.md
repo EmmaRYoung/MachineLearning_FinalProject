@@ -32,3 +32,11 @@ Full list of male measurements: (19 features)
 
 Full list of female measurements: (21 features)
 * Ankle,  BandSize, BiceptLower, BiceptUpper, Butt, CalfLargest, CalfUpper, CupSize, ElbowToWrist, FloorToShoulder, ForearmLargest, GroinToFloor, Height, ShoulderToElbow, ShoulderToWrist, ThighLength, ThighLower, ThighUpper, Waist, Wrist
+
+Next, twelve regression models were fit to each of the datasets to narrow down on the best set of parameters and objective function to use. All regressions created in this project are from Scikit-learn’s MultiOutputRegressor class. The first four regressions test a linear least squares regression with l2 regularization, and varies the alpha parameter in the objective function:
+![image](https://github.com/EmmaRYoung/MachineLearning_FinalProject/assets/67296859/ff1b0233-a914-46d7-b74c-16b5cf4885a2)
+In these regressions, the intercept of the model is also fit, as it is unknown if the parameters should be centered or not.
+The next four regressions vary the alpha parameter in the same way, but test the regression fit when the intercept of the model is not fit. 
+The final four regressions test the use of a Kernel for fitting the data. This uses the same linear least squares with l2-norm regression, but the kernel trick is applied. Different weights for alpha are also tried during this method. The fit for each model is evaluated with a coefficient of determination R(n<sup>2</sup>).
+
+ 
