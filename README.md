@@ -27,4 +27,8 @@ For male models, the measurements seen in Figures 2-3 were taken. The measuremen
 |:--:|
 | Circumference measurements on the male and SMPL model |
 
-Full list of male 
+Full list of male measurements: (19 features)
+* Ankle, BiceptLower, BiceptUpper, Butt, CalfLargest, CalfUpper, Chest, ElbowToWrist, FloorToShoulder, ForearmLargest, GroinToFloor, Height, ShoulderToElbow, ShoulderToWrist, ThighLength, ThighLower, ThighUpper, Waist, Wrist
+
+Full list of female measurements: (21 features)
+* Ankle,  BandSize, BiceptLower, BiceptUpper, Butt, CalfLargest, CalfUpper, CupSize, ElbowToWrist, FloorToShoulder, ForearmLargest, GroinToFloor, Height, ShoulderToElbow, ShoulderToWrist, ThighLength, ThighLower, ThighUpper, Waist, Wrist
